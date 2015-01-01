@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB2B68A01A54BBDB00F3A2C5 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2B689F1A54BBDB00F3A2C5 /* TaskCell.swift */; };
 		EB2D67E81A45058800858BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D67E71A45058800858BB1 /* AppDelegate.swift */; };
 		EB2D67EA1A45058800858BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D67E91A45058800858BB1 /* ViewController.swift */; };
 		EB2D67ED1A45058800858BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D67EB1A45058800858BB1 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB2B689F1A54BBDB00F3A2C5 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		EB2D67E21A45058800858BB1 /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2D67E61A45058800858BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2D67E71A45058800858BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				EB2D67E71A45058800858BB1 /* AppDelegate.swift */,
 				EB2D67E91A45058800858BB1 /* ViewController.swift */,
+				EB2B689F1A54BBDB00F3A2C5 /* TaskCell.swift */,
 				EB2D67EB1A45058800858BB1 /* Main.storyboard */,
 				EB2D67EE1A45058800858BB1 /* Images.xcassets */,
 				EB2D67F01A45058800858BB1 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2D67EA1A45058800858BB1 /* ViewController.swift in Sources */,
+				EB2B68A01A54BBDB00F3A2C5 /* TaskCell.swift in Sources */,
 				EB2D67E81A45058800858BB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				EB2D68031A45058800858BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB2D68041A45058800858BB1 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				EB2D68061A45058800858BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
