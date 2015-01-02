@@ -9,11 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var taskArray: [Dictionary<String, String>] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let task1: Dictionary<String, String> = ["task": "Study French", "subtask": "Verbs in past and present", "date": "01/10/2014"]
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -28,7 +34,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        println(indexPath.row)
+        
         var cell: TaskCell = tableView.dequeueReusableCellWithIdentifier("myCell") as TaskCell
+        
+        cell.taskLabel.text = "Study French"
+        cell.descriptionLabel.text = "Verbs in past and present"
+        cell.dateLabel.text = "01/10/2014"
         
         return cell
     }
