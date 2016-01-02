@@ -1,0 +1,29 @@
+{
+  "name": "overcast-desktop",
+  "version": "0.1.0",
+  "description": "Overcast desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xasos/overcast-desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "overcast",
+    "podcast",
+    "player"
+  ],
+  "author": "Niraj Pant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xasos/overcast-desktop/issues"
+  },
+  "homepage": "https://github.com/xasos/overcast-desktop#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "electron-packager": "^5.2.0"
+  }
+}
