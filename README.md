@@ -1,9 +1,9 @@
 # Overcast.fm for Desktop
 [![Build Status](https://travis-ci.org/xasos/overcast-desktop.svg?branch=master)](https://travis-ci.org/xasos/overcast-desktop)
 
-Desktop application for [Overcast](http://overcast.fm/) using Electron + Node.js. Includes support for Mac Media Keys.
+Cross-platform desktop application for [Overcast](http://overcast.fm/) using Electron + Node.js. Includes support for Mac Media Keys.
 
-[Screenshots]
+![Screenshot](https://cdn.rawgit.com/xasos/overcast-desktop/master/assets/overcast-screenshot.png)
 
 ## Media Key Support
 - <kbd>>||</kbd> - Play/Pause
