@@ -19,7 +19,10 @@ $ npm build <platform>
 ```
 
 ## Download
-Latest release for Mac and Linux available [here](https://github.com/xasos/overcast-desktop/releases)
+Latest release for Mac and Linux available [here](https://github.com/xasos/overcast-desktop/releases). After download, run
+```sh
+$ tar -zxvf overcast-<platform>-x64.tar.gz          # Swap <platform> with downloaded release name
+```
 
 ## Contributing
 All contributions welcome!
