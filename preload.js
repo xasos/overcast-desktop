@@ -4,7 +4,8 @@ window.onload = function() {
     script.src = "https://code.jquery.com/jquery-2.1.4.min.js";
     script.onload = script.onreadystatechange = function() {
       $(document).ready(function() {
-        $("#lst-ib").val("Hello, World!");
+        //$("#lst-ib").val("Hello, World!");
+        console.log("ayyy lmao");
       });
     };
     document.body.appendChild(script);

@@ -1,5 +1,6 @@
 'use strict';
 const electron = require('electron');
+const GlobalShortcut = require('global-shortcut');
 const app = electron.app;  // Module to control application life.
 const BrowserWindow = electron.BrowserWindow;  // Module to create native browser window.
 
@@ -32,4 +33,24 @@ app.on('ready', function() {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+
+  initPlayerButtons();
 });
+
+function initPlayerButtons() {
+  console.log("hello");
+  GlobalShortcut.register('MediaPlayPause', function() {
+    var code = '$(\'#playpausebutton\').click()';
+    mainWindow.webContents.executeJavaScript(code);
+  });
+  
+  GlobalShortcut.register('MediaNextTrack', function () {
+    var code = 'triggerKeyCode(document.body, 39);';
+    mainWindow.webContents.executeJavaScript(code);
+  });
+
+  GlobalShortcut.register('MediaPreviousTrack', function () {
+    var code = 'triggerKeyCode(document.body, 37);';
+    mainWindow.webContents.executeJavaScript(code);
+  });  
+};
