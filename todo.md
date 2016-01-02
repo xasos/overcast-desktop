@@ -8,3 +8,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Fix icon + app name
 - [ ] Windows support?
 - [ ] Make Media Keys less greedy
+- [ ] Create installer - https://www.npmjs.com/package/electron-installer-dmg
