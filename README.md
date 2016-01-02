@@ -6,9 +6,9 @@ Desktop application for [Overcast](http://overcast.fm/) using Electron + Node.js
 [Screenshots]
 
 ## Media Key Support
-- <kbd>&lt;&lt;</kbd> - Play/Pause
-- <kbd>>||</kbd> - Skip forward 30s
-- or <kbd>&gt;&gt;</kbd> - Rewind 30s
+- <kbd>>||</kbd> - Play/Pause
+- <kbd>&lt;&lt;</kbd> - Rewind 30s
+- <kbd>&gt;&gt;</kbd> - Skip forward 30s
 
 ## Building `overcast-desktop`
 ```sh
