@@ -3,7 +3,7 @@
 
 Cross-platform desktop application for [Overcast](http://overcast.fm/) using Electron + Node.js. Includes support for Mac Media Keys.
 
-![Screenshot](https://cdn.rawgit.com/xasos/overcast-desktop/master/assets/overcast-screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/xasos/overcast-desktop/master/assets/overcast-screenshot.png)
 
 ## Media Key Support
 - <kbd>>||</kbd> - Play/Pause
