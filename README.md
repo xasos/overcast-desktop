@@ -11,14 +11,16 @@ Cross-platform desktop application for [Overcast](http://overcast.fm/) using Ele
 - <kbd>&gt;&gt;</kbd> - Skip forward 30s
 
 ## Download
-Latest release for Mac OS X, Linux, and Windows available [here](https://github.com/xasos/overcast-desktop/releases). To keep the download size of Overcast down, the `*.app` file has been tarred. To untar, run
+Latest release for Mac OS X, Linux, and Windows available [here](https://github.com/xasos/overcast-desktop/releases). To keep the download size of Overcast down, the binary has been tarred. To untar, run
 ```sh
-$ tar -zxvf overcast-<platform>-x64.tar.gz          # Swap <platform> with downloaded release name
+$ tar -zxvf overcast-<platform>-x64.tar.gz          # Substitute <platform> with platform of choice
 # Proceed to move into Applications folder
 ```
 
 ## Building `overcast-desktop`
 ```sh
+$ git clone https://github.com/xasos/overcast-desktop.git
+$ cd overcast-desktop
 $ npm install
 $ npm start
 # To build for a specific platform (darwin, linux, win32)
@@ -26,7 +28,7 @@ $ npm build <platform>
 ```
 
 ## Patronage
-If you love Overcast, I'd highly recommend [helping support the app](https://overcast.fm/skeptics_faq). [Marco](https://marco.org/) offers Overcast for free and puts a lot of time and effort into building it.
+If you love Overcast, I'd highly recommend [helping support the app](https://overcast.fm/skeptics_faq) - [Marco](https://marco.org/) offers Overcast for free and puts a lot of time and effort into building it.
 
 ## License
 [MIT License](LICENSE)
