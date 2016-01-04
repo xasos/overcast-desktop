@@ -12,3 +12,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Finish README
 - [ ] App Bar Preview
 - [ ] Menu bar info + controls
+- [ ] Settings page for default window size

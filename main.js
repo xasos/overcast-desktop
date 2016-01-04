@@ -21,7 +21,7 @@ app.on('window-all-closed', function() {
 app.on('ready', function() {
   initMenu();
 
-  mainWindow = new BrowserWindow({width: 1024, height: 768});
+  mainWindow = new BrowserWindow({width: 652, height: 1535});
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   mainWindow.on('closed', function() {
