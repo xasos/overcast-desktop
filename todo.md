@@ -10,3 +10,5 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Make Media Keys less greedy
 - [ ] Create installer - https://www.npmjs.com/package/electron-installer-dmg
 - [ ] Finish README
+- [ ] App Bar Preview
+- [ ] Menu bar info + controls
