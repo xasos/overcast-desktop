@@ -21,8 +21,14 @@ app.on('window-all-closed', function() {
 app.on('ready', function() {
   initMenu();
 
-  mainWindow = new BrowserWindow({width: 652, height: 1535});
+  mainWindow = new BrowserWindow({
+    width: 652, 
+    height: 1535,
+    resizable: true
+  });
+
   mainWindow.loadURL('file://' + __dirname + '/index.html');
+  mainWindow.focus()
 
   mainWindow.on('closed', function() {
     mainWindow = null;
@@ -34,17 +40,17 @@ app.on('ready', function() {
 
 function initPlayerButtons() {
   GlobalShortcut.register('MediaPlayPause', function() {
-    var code = 'alert();';
+    var code = 'playPause()';
     mainWindow.webContents.executeJavaScript(code);
   });
   
   GlobalShortcut.register('MediaNextTrack', function () {
-    var code = 'triggerKeyCode(document.body, 39);';
+    var code = 'next()';
     mainWindow.webContents.executeJavaScript(code);
   });
 
   GlobalShortcut.register('MediaPreviousTrack', function () {
-    var code = 'triggerKeyCode(document.body, 37);';
+    var code = 'previous()';
     mainWindow.webContents.executeJavaScript(code);
   });  
 };

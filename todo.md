@@ -3,13 +3,11 @@
 _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 
 - [ ] Add Build Script
-- [ ] Add Content menu
 - [ ] Redesign icon
-- [ ] Fix icon + app name
-- [ ] Windows support?
 - [ ] Make Media Keys less greedy
 - [ ] Create installer - https://www.npmjs.com/package/electron-installer-dmg
-- [ ] Finish README
-- [ ] App Bar Preview
 - [ ] Menu bar info + controls
 - [ ] Settings page for default window size
+- [ ] volume + default menu bar
+- [ ] automate programmatic clicking
+- [ ] https://github.com/cheeaun/kyoku
